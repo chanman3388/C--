@@ -1,0 +1,6 @@
+#include <iostream>
+
+int main(){
+  std::cout << '\002' << ' \115' << '\n' << std::endl;
+  return 0;
+}

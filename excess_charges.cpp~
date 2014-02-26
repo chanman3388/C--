@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+  cout << "Calculates cost of excess usage of one item, enter item type:" << endl;
+  string type;
+  cin >> type;
+  cout << "Type entered: " << type << "\n";
+  cout << "Enter charge for excess in pounds per " << type <<":" << endl;
+  float charge=0,excess=0;
+  cin >> charge;
+  cout << "Enter allowance:" << endl;
+  int allowance=0,used=0;
+  cin >> allowance;
+  cout << "Enter used:" << endl;
+  cin >> used;
+  excess = charge*(used-allowance);
+  cout >> "You will be charged " <<

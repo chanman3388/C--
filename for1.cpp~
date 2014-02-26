@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main(){
+  int sum=0;
+  for(int=50,int <=100,++int){
+    sum += int;
+  }
+  std::cout << "The sum between 50 to 100 is " << sum << std::endl;
+  return 0;
+}
